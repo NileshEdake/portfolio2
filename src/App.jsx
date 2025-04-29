@@ -6,7 +6,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Education from './pages/Education'
 import Skills from './pages/Skills'
-import Footer from './Components/Footer'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
