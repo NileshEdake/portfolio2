@@ -30,7 +30,7 @@ export default function Contact() {
       const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ access_key: 'b42ce9f4-9515-4ee5-9a90-5b88a75b2c16', ...formData }),
+        body: JSON.stringify({ access_key: 'e01e89ab-8d0d-49f1-99bb-7c03558f1399', ...formData }),
       });
       const result = await res.json();
       setSubmitStatus(result.success ? 'success' : 'error');
